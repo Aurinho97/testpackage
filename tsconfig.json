@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "es2016",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "plugins": [
+      { "name": "typescript-plugin-css-modules" }
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "*.js"
+  ]
+}

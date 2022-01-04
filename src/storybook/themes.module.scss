@@ -1,0 +1,7 @@
+@import "../styles/themes";
+
+:export {
+  @each $theme, $_ in $themes {
+    #{$theme}: #{$theme-prefix}#{$theme}
+  }
+}

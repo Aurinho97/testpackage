@@ -1,0 +1,9 @@
+@import "styles/themes";
+
+@each $theme, $properties in $themes {
+    .#{$theme-prefix}#{$theme} {
+      @each $property, $value in $properties {
+        --#{$property}: #{$value};
+      }
+    }
+}

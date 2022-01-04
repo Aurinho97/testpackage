@@ -1,0 +1,8 @@
+@import "light";
+@import "dark";
+
+$theme-prefix: "interactio-theme-";
+$themes: (
+        light: $light,
+        dark: $dark
+);

@@ -1,0 +1,11 @@
+@use "../../utilities";
+
+@import "colors";
+@import "typography";
+@import "spacing";
+
+$light: utilities.map-collect(
+                $colors,
+                $typography,
+                $spacing
+);

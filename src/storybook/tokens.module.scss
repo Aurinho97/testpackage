@@ -1,0 +1,9 @@
+@import "../styles/themes";
+
+:export {
+  @each $theme, $properties in $themes {
+    @each $property, $value in $properties {
+      #{$theme}--#{$property}: #{$value};
+    }
+  }
+}
